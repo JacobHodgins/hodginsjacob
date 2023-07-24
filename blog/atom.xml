@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Jacob Hodgins's Blog</title>
-	<link href="http://jacobhodgins.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://jacobhodgins.github.io/blog"/>
+	<link href="https://jacobhodgins.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://jacobhodgins.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://jacobhodgins.github.io/blog</id>
+	<id>https://jacobhodgins.github.io/blog</id>
 	<author>
 		<name>Jacob Hodgins</name>
 		<email>jacob.hodgins.17@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://jacobhodgins.github.io{{ post.url }}"/>
+			<link href="https://jacobhodgins.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://jacobhodgins.github.io{{ post.id }}</id>
+			<id>https://jacobhodgins.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
