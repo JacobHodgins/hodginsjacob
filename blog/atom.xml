@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Jacob Hodgins's Blog</title>
-	<link href="https://jacobhodgins.github.io/blog/atom.xml" rel="self"/>
-	<link href="https://jacobhodgins.github.io/blog"/>
+	<title>Jacob Hodgins's Projects</title>
+	<link href="https://jacobhodgins.github.io/projects/atom.xml" rel="self"/>
+	<link href="https://jacobhodgins.github.io/projects"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>https://jacobhodgins.github.io/blog</id>
+	<id>https://jacobhodgins.github.io/projects</id>
 	<author>
 		<name>Jacob Hodgins</name>
 		<email>jacob.hodgins.17@gmail.com</email>
