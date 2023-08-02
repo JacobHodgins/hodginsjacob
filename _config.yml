@@ -1,4 +1,4 @@
 name: Jacob Hodgins
 markdown: kramdown
 permalink: /projects/:year/:month/:day/:title
-theme: minima
+remote_theme: al-folio
