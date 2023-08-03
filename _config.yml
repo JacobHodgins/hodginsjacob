@@ -1,3 +1,6 @@
+domain: jacobhodgins.github.io
+url: https://jacobhodgins.github.io
+baseurl: /hodginsjacob/
 name: Jacob Hodgins
 markdown: kramdown
 permalink: /projects/:year/:month/:day/:title
