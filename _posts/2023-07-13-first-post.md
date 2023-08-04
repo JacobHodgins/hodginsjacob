@@ -9,4 +9,4 @@ date: 2023-07-13
   Here's a cool image:
 </pre>
 
-<img src="/images/Vaporwave Background.jpg" alt="Vaporwave Background">
+<img src="/hodginsjacob/images/Vaporwave Background.jpg" alt="Vaporwave Background">
