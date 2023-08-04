@@ -5,3 +5,5 @@ name: Jacob Hodgins
 markdown: kramdown
 permalink: /projects/:year/:month/:day/:title
 remote_theme: al-folio
+paginate: 5
+paginate_path: "/blog/page:num/"
