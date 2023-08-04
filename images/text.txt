@@ -1,1 +1,0 @@
-This is the images folder! Here I will be storing photos uploaded from my computer locally.
