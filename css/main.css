@@ -35,7 +35,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.main {
+.container {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 ul.posts { 
