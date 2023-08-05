@@ -4,22 +4,23 @@
 
 nav.navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  border-bottom-style: solid;
+  border-color: black;
 }
 nav.navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 nav.navbar a:hover {
-  background: #ddd;
-  color: black;
+  color: #ddd;
 }
 div.container {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
@@ -27,7 +28,7 @@ div.container {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: red;
+    color: black;
 }
 p {
     font-size: 1.5em;
