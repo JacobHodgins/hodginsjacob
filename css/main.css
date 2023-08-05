@@ -10,6 +10,7 @@ nav.navbar {
   width: 100%; /* Full width */
   border-bottom-style: solid;
   border-color: black;
+  float: center;
 }
 nav.navbar a {
   float: left;
@@ -23,6 +24,7 @@ nav.navbar a:hover {
   color: #ddd;
 }
 div.container {
+  float: center;
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 h1 {
