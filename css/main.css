@@ -21,11 +21,6 @@ body {
 .navbar > a:hover {
   background: #ddd;
   color: black;
-}
-.navbar > a.active {
-    background-color: #04AA6D;
-    color: white;
-}
 /*
 .navbar-right {
     float: right;
