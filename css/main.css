@@ -10,6 +10,7 @@ nav.navbar {
   width: 100%; /* Full width */
   border-bottom-style: solid;
   border-color: black;
+  border-image: linear-gradient(to right, white, black, white);
   float: center;
 }
 nav.navbar a {
