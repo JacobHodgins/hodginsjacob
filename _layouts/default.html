@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 	<html>
-		
-		{% include head.html %}
-		
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="{{ site.baseurl }}">Home</a></li>
-		        	<li><a href="{{ site.baseurl }}about">About</a></li>
-	        		<li><a href="{{ site.baseurl }}resume">Resume</a></li>
-	        		<li><a href="{{ site.baseurl }}projects">Projects</a></li>
-	    		</ul>
-			</nav>
+			<div class="navbar">
+	        		<a href="{{ site.baseurl }}">Home</a>
+		        	<a href="{{ site.baseurl }}about">About</a>
+	        		<a href="{{ site.baseurl }}resume">Resume</a>
+	        		<a href="{{ site.baseurl }}projects">Projects</a>
+				<!-- Right Aligned Sidebar -->
+				<div class="topnav-right">
+					<a href="mailto:jacob.hodgins.17@gmail.com">email</a>
+	        			<a href="https://github.com/jacobhodgins">github.com/jacobhodgins</a>
+					<a href="https://www.linkedin.com/in/jacob-hodgins-59ba57270/">linkedin</a>
+				</div>
+			</div>
 			<div class="container">
 			
 			{{ content }}
@@ -19,9 +26,7 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<li><a href="mailto:jacob.hodgins.17@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/jacobhodgins">github.com/jacobhodgins</a></li>
-				<li><a href="https://www.linkedin.com/in/jacob-hodgins-59ba57270/">linkedin</li>
+	        		<li>
 				</ul>
 			</footer>
 		</body>
