@@ -1,9 +1,3 @@
-/*
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -27,9 +21,9 @@ body {
     float: right;
 }
 */
-.container {
+.main {
   padding: 16px;
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin: 30px; /* Add a top margin to avoid content overlay */
 }
 h1 {
     font-size: 3em;
