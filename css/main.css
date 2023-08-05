@@ -26,9 +26,11 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+/*
 .navbar-right {
     float: right;
 }
+*/
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
