@@ -27,7 +27,7 @@ body {
     float: right;
 }
 */
-.main {
+.container {
   padding: 16px;
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
