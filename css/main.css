@@ -15,7 +15,7 @@ nav.navbar {
 }
 
 /* styling for navbar elements */
-nav.navbar a, .dropdown {
+nav.navbar a {
   float: left;
   display: block;
   color: black;
@@ -23,6 +23,14 @@ nav.navbar a, .dropdown {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.dropdown {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+ }
 
 .dropdown button.dropbtn {
   display: block;
