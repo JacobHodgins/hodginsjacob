@@ -1,7 +1,7 @@
 * {
   margin:0; padding:0;
 }
-
+/* styling for the navbar */
 nav.navbar {
   overflow: hidden;
   background-color: white;
@@ -12,6 +12,7 @@ nav.navbar {
   border-image: linear-gradient(to right, black, white) 1;
   float: left;
 }
+/* styling for navbar elements */
 nav.navbar a {
   float: left;
   display: block;
@@ -20,12 +21,19 @@ nav.navbar a {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* colour directories with mouse hovering over */
 nav.navbar a:hover {
   color: #ddd;
 }
+/* colour the currently active directory*/
+nav.navbar a.active {
+  color: RGB(189,224,161);
+}
+/* styling for content container */
 div.container {
   margin: 30px auto; /* Add a top margin to avoid content overlay */
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
