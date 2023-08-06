@@ -15,19 +15,13 @@ nav.navbar {
 }
 
 /* styling for navbar elements */
-nav.navbar a {
+nav.navbar a, .dropdown {
   float: left;
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.dropdown {
-  float: right;
-  overflow: hidden;
-  background-color: white;
 }
 
 .dropdown button.dropbtn {
