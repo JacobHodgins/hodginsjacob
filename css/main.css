@@ -121,13 +121,14 @@ footer {
   width: 100%;
 }
 
+
 .end-of-page a {
   text-align: center;
   color: black;
   padding: 10px 0px;
   text-decoration: none;
 }
-
+/*
 .end-of-page span.arrow-tooltip {
   visibility: hidden;
   width: 120px;
@@ -160,7 +161,35 @@ footer {
   visibility: visible;
   opacity: 1;
 }
+*/
+.end-of-page {
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.end-of-page a span.arrow-tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.end-of-page a:hover .arrow-tooltip {
+  visibility: visible;
+}
 /* FOOTER */
 
 h1 {
