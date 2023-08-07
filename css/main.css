@@ -12,6 +12,9 @@ nav.navbar {
   border-bottom-style: solid;
   border-image: linear-gradient(to right, black, white) 1;
   float: left;
+  
+  font-size: 20px
+  font-family: Times New Roman, Times, serif;
 }
 
 /* styling for navbar elements */
@@ -20,7 +23,7 @@ nav.navbar a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 20px; /* original 14px and 16px */
   text-decoration: none;
 }
 
@@ -42,8 +45,10 @@ nav.navbar a {
   border: none;
   outline: none;
   color: black;
+  /*
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
+  */
   background-color: white;
   margin: 0;
   text-align: center;
