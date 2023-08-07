@@ -20,7 +20,7 @@ nav.navbar a {
   display: block;
   color: black;
   text-align: center;
-  padding: 28px 20px; /* original 14px and 16px */
+  padding: 22px 20px; /* original 14px and 16px */
   text-decoration: none;
   font-size: 20px
   font-family: Times New Roman, Times, serif;
@@ -44,12 +44,12 @@ nav.navbar a {
   border: none;
   outline: none;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   background-color: white;
   margin: 0;
   text-align: center;
-  padding: 28px 20px; /* original 14px and 16px */
+  padding: 22px 20px; /* original 14px and 16px */
   text-decoration: none;
 }
 
