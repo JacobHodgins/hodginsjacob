@@ -38,16 +38,17 @@ nav.navbar a {
 
 /* styling for drop button */
 .dropdown button.dropbtn {
-  display: block;
-  color: black;
+  /*display: block;*/
   border: none;
   outline: none;
+  color: black;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  margin: 0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: white;
 }
 
 /* colour directories with mouse hovering over */
@@ -62,7 +63,7 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2147483647; /* this number is the highest possible z index */
+  z-index: 1; /* this number (2147483647) is the highest possible z index */
 }
 
 /* styling for dropdown menu links */
