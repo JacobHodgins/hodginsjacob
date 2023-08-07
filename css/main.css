@@ -12,9 +12,6 @@ nav.navbar {
   border-bottom-style: solid;
   border-image: linear-gradient(to right, black, white) 1;
   float: left;
-  
-  font-size: 20px
-  font-family: Times New Roman, Times, serif;
 }
 
 /* styling for navbar elements */
@@ -25,6 +22,8 @@ nav.navbar a {
   text-align: center;
   padding: 28px 20px; /* original 14px and 16px */
   text-decoration: none;
+  font-size: 20px
+  font-family: Times New Roman, Times, serif;
 }
 
 /* drop button placeholder */
@@ -45,14 +44,12 @@ nav.navbar a {
   border: none;
   outline: none;
   color: black;
-  /*
-  font-size: 16px;
+  font-size: 25px;
   font-family: "Times New Roman", Times, serif;
-  */
   background-color: white;
   margin: 0;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 20px; /* original 14px and 16px */
   text-decoration: none;
 }
 
@@ -94,7 +91,7 @@ nav.navbar a.active {
 
 /* styling for content container */
 div.container {
-  margin: 30px auto; /* Add a top margin to avoid content overlay */
+  margin: 60px auto;
 }
 
 h1 {
