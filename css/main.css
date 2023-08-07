@@ -22,7 +22,7 @@ nav.navbar a {
   text-align: center;
   padding: 22px 20px; /* original 14px and 16px */
   text-decoration: none;
-  font-size: 20px
+  font-size: 20px;
   font-family: Times New Roman, Times, serif;
 }
 
@@ -83,14 +83,14 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   display: block;
 }
 
-/* colour the currently active directory
+/* colour the currently active directory*/
 nav.navbar a.active {
   color: RGB(189,224,161);
 }
-*/
+
 
 /* styling for content container */
-div.container {
+.container {
   margin: 60px auto;
 }
 
