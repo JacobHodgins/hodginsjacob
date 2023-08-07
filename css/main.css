@@ -10,7 +10,7 @@ nav.navbar {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   border-bottom-style: solid;
-  border-image: linear-gradient(to right, black, white, white) 1;
+  border-image: linear-gradient(to right, black, gray, white) 1;
   float: left;
 }
 
