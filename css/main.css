@@ -104,6 +104,13 @@ nav.navbar a.active {
   border-radius: 12px;
 }
 
+.blurb-image {
+  float: left;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
