@@ -114,7 +114,7 @@ nav.navbar a:active {
 }
 
 /* FOOTER */
-.footer-box {
+footer {
   border-top-style: solid;
   border-image: linear-gradient(to right, white, black, white) 1;
   width: 100%;
@@ -122,12 +122,11 @@ nav.navbar a:active {
 
 .footer-box a {
   text-align: center;
-  padding: 100px 50%; 
+  color: black;
+  padding: 10px 0px; 
 }
 
-.footer-box:hover .footer-spinner-dropdown {
-  display: block;
-}
+/* FOOTER */
 
 h1 {
     font-size: 3em;
