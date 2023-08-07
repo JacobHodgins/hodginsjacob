@@ -10,7 +10,8 @@ nav.navbar {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   border-bottom-style: solid;
-  border-image: linear-gradient(to right, black, white) 1;
+  /* border-image: linear-gradient(to right, black, white) 1; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
   float: left;
 }
 
@@ -92,6 +93,14 @@ nav.navbar a.active {
 /* styling for content container */
 .container {
   margin: 60px auto;
+}
+
+.blurb {
+  margin: 60px auto;
+  width: 70%;
+  border-style: solid;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 16px 12px;
 }
 
 h1 {
