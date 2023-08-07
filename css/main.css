@@ -27,10 +27,13 @@ nav.navbar a {
 /* drop button placeholder */
 .dropdown {
   float: left;
+  /*
   display: block;
   color: black;
   text-align: center;
   text-decoration: none;
+  */
+  overflow: hidden;
  }
 
 /* styling for drop button */
