@@ -24,6 +24,7 @@ nav.navbar a {
   text-decoration: none;
 }
 
+/* drop button placeholder */
 .dropdown {
   float: left;
   display: block;
@@ -32,6 +33,7 @@ nav.navbar a {
   text-decoration: none;
  }
 
+/* styling for drop button */
 .dropdown button.dropbtn {
   display: block;
   color: black;
@@ -50,16 +52,18 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   color: #ddd;
 }
 
+/* styling for dropdown menu */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 160px;
-  min-length: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2147483647; /* this number is the highest possible z index */
+  overflow: visible;
 }
 
+/* styling for dropdown menu links */
 .dropdown-content a {
   float: none;
   color: black;
@@ -69,6 +73,7 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   text-align: left;
 }
 
+/* display dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
