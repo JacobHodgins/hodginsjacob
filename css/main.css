@@ -10,7 +10,7 @@ nav.navbar {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   border-bottom-style: solid;
-  border-image: linear-gradient(to right, black, white) 1;
+  border-image: linear-gradient(to right, black, white, white) 1;
   float: left;
 }
 
@@ -60,7 +60,6 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2147483647; /* this number is the highest possible z index */
-  overflow: visible;
 }
 
 /* styling for dropdown menu links */
@@ -78,16 +77,17 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   display: block;
 }
 
-/* colour the currently active directory*/
+/* colour the currently active directory
 nav.navbar a.active {
   color: RGB(189,224,161);
 }
+*/
 
-/* styling for content container */
+/* styling for content container
 div.container {
-  margin: 30px auto; /* Add a top margin to avoid content overlay */
+  margin: 30px auto; /* Add a top margin to avoid content overlay
 }
-
+*/
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
