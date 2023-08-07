@@ -114,16 +114,51 @@ nav.navbar a:active {
 }
 
 /* FOOTER */
+
 footer {
   border-top-style: solid;
-  border-image: linear-gradient(to right, white, black, white) 1;
+  border-image: linear-gradient(to right, white, white, black, white, white) 1;
   width: 100%;
 }
 
-.footer-box a {
+.footer-cog-box a {
   text-align: center;
   color: black;
-  padding: 10px 0px; 
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+.footer-cog-box .footer-spinner-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.footer-cog-box .footer-spinner-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.footer-cog-box.a:hover .footer-spinner-tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* FOOTER */
