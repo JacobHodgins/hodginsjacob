@@ -121,14 +121,14 @@ footer {
   width: 100%;
 }
 
-.footer-cog-box a {
+.end-of-page a {
   text-align: center;
   color: black;
   padding: 10px 0px;
   text-decoration: none;
 }
 
-.footer-cog-box .footer-spinner-tooltip {
+.end-of-page span.arrow-tooltip {
   visibility: hidden;
   width: 120px;
   background-color: #555;
@@ -145,7 +145,7 @@ footer {
   transition: opacity 0.3s;
 }
 
-.footer-cog-box .footer-spinner-tooltip::after {
+.end-of-page span.arrow-tooltip::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -156,7 +156,7 @@ footer {
   border-color: #555 transparent transparent transparent;
 }
 
-.footer-cog-box.a:hover .footer-spinner-tooltip {
+.end-of-page a:hover span.arrow-tooltip {
   visibility: visible;
   opacity: 1;
 }
