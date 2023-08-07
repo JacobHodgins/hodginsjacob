@@ -83,11 +83,11 @@ nav.navbar a.active {
 }
 */
 
-/* styling for content container
+/* styling for content container */
 div.container {
-  margin: 30px auto; /* Add a top margin to avoid content overlay
+  margin: 30px auto; /* Add a top margin to avoid content overlay */
 }
-*/
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
