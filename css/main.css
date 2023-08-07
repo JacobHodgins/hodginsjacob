@@ -4,15 +4,13 @@
 
 /* styling for the navbar */
 nav.navbar {
-  overflow: hidden;
+  overflow: visible;
   background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   border-bottom-style: solid;
-  /*
-  border-image: linear-gradient(to right, black, gray, white) 1;
-  */
+  border-image: linear-gradient(to right, black, white) 1;
   float: left;
 }
 
