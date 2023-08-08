@@ -1,8 +1,10 @@
+/*
+/* calibrate all elements 
 * {
   margin:0; padding:0;
 }
-
-/* NAVIGATION BAR */
+*/
+/* --------------------------------NAVIGATION BAR-------------------------------- */
 
 /* styling for the navbar */
 nav.navbar {
@@ -90,19 +92,22 @@ nav.navbar a:active {
   color: RGB(189,224,161);
 }
 
-/* NAVIGATION BAR */
+/* --------------------------------NAVIGATION BAR-------------------------------- */
+/* --------------------------------CONTENT CONTAINER-------------------------------- */
 
-/* styling for content container */
 .container {
   margin: 60px auto;
   width: 70%
 }
+/* --------------------------------CONTENT CONTAINER-------------------------------- */
+/* --------------------------------HOME PAGE-------------------------------- */
 
 .blurb {
   border-style: solid;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 16px 12px;
   border-radius: 12px;
+  width: 60%;
 }
 
 .blurb-image {
@@ -112,7 +117,21 @@ nav.navbar a:active {
   border-radius: 8px;
 }
 
-/* FOOTER */
+.blurb p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+/* --------------------------------HOME PAGE-------------------------------- */
+/* --------------------------------RESUME PAGE-------------------------------- */
+
+.resume-index-page {
+  text-align: center;
+}
+
+/* --------------------------------RESUME PAGE-------------------------------- */
+/* --------------------------------FOOTER-------------------------------- */
 
 footer {
   border-top-style: solid;
@@ -159,18 +178,13 @@ footer {
 .end-of-page a:hover .arrow-tooltip {
   visibility: visible;
 }
-/* FOOTER */
+/* --------------------------------FOOTER-------------------------------- */
+/* --------------------------------GENERAL STYLING-------------------------------- */
 
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: black;
-}
-
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
 }
 
 ul.posts { 
@@ -181,3 +195,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* GENERAL STYLING */
