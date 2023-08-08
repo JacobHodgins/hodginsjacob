@@ -132,6 +132,7 @@ footer {
   color: gray;
   opacity: 50%;
   text-decoration: none;
+  width: 100%;
 }
 
 .end-of-page a span.arrow-tooltip {
