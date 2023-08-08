@@ -95,11 +95,10 @@ nav.navbar a:active {
 /* styling for content container */
 .container {
   margin: 60px auto;
+  width: 70%
 }
 
 .blurb {
-  margin: 60px auto;
-  width: 70%;
   border-style: solid;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 16px 12px;
