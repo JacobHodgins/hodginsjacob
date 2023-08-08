@@ -125,13 +125,12 @@ footer {
   margin: auto;
   width: 50%;
   position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .end-of-page a {
   text-align: center;
-  color: black;
+  color: gray;
+  opacity: 50%;
   padding: 10px 0px;
   text-decoration: none;
 }
