@@ -132,7 +132,11 @@ footer {
   color: gray;
   opacity: 50%;
   text-decoration: none;
-  width: 100%;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .end-of-page a span.arrow-tooltip {
