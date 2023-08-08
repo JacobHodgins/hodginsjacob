@@ -125,6 +125,7 @@ footer {
   margin: auto;
   width: 50%;
   position: relative;
+  border-style: solid;
 }
 
 .end-of-page a {
