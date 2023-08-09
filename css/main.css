@@ -130,23 +130,27 @@ nav.navbar a:active {
   text-align: center;
 }
 
-.my-name {
+.resume-my-name {
   font-size: 30px;
   border-bottom-style: solid;
   border-width: 3px;
 }
 
-.my-email {
+.resume-my-email {
   font-size: 20px;
   opacity: 50%;
   padding: 10px;
+  border-style: none;
 }
 
-.resume-blurb {
+.resume-content {
   padding: 20px;
-  font-size: 18px;
   border-bottom-style: solid;
   border-width: 2px;
+}
+
+.resume-content p {
+  font-size: 18px;
 }
 
 /* --------------------------------RESUME PAGE-------------------------------- */
