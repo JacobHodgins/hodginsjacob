@@ -126,7 +126,7 @@ nav.navbar a:active {
 /* --------------------------------HOME PAGE-------------------------------- */
 /* --------------------------------RESUME PAGE-------------------------------- */
 
-.resume-index-page {
+.resume-index-page h1, .resume-index-page h2{
   text-align: center;
 }
 
