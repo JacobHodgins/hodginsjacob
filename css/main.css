@@ -141,6 +141,7 @@ nav.navbar a:active {
   opacity: 50%;
   padding: 10px;
   border-style: none;
+  text-align: center;
 }
 
 .resume-content {
