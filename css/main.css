@@ -98,6 +98,11 @@ nav.navbar a:active {
   align-items: center;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
 /* --------------------------------HOME PAGE-------------------------------- */
 
