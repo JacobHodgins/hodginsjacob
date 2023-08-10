@@ -33,18 +33,11 @@ nav.navbar a {
 /* drop button placeholder */
 .dropdown {
   float: left;
-  /*
-  display: block;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  */
   overflow: hidden;
  }
 
 /* styling for drop button */
 .dropdown button.dropbtn {
-  /*display: block;*/
   border: none;
   outline: none;
   color: black;
@@ -97,8 +90,7 @@ nav.navbar a:active {
 
 .container {
   margin: 60px auto;
-  /*width: 70%;*/
-
+  width: 55%;
 }
 
 .grid {
@@ -152,10 +144,6 @@ nav.navbar a:active {
   padding: 20px 0px;
   border-bottom-style: solid;
   border-width: 2px;
-  /*
-  display: flex;
-  justify-content: center;
-  */
 }
 
 .resume-content p {
@@ -228,4 +216,4 @@ ul.posts li {
     list-style: none;
 }
 
-/* GENERAL STYLING */
+/* --------------------------------GENERAL STYLING-------------------------------- */
