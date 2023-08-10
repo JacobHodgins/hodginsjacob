@@ -96,8 +96,15 @@ nav.navbar a:active {
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
 
 .container {
+  /*
   margin: 60px auto;
   width: 70%;
+  */
+}
+
+.grid {
+  display: grid;
+  align-items: center;
 }
 
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
@@ -146,7 +153,8 @@ nav.navbar a:active {
   padding: 20px 0px;
   border-bottom-style: solid;
   border-width: 2px;
-  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .resume-content p {
