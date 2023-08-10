@@ -96,10 +96,9 @@ nav.navbar a:active {
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
 
 .container {
-  /*
   margin: 60px auto;
-  width: 70%;
-  */
+  /*width: 70%;*/
+
 }
 
 .grid {
