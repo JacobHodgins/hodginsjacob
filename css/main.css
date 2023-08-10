@@ -90,17 +90,15 @@ nav.navbar a:active {
 
 .container {
   margin: 60px auto;
+}
+
+.content {
   width: 65%;
 }
 
 .grid {
   display: grid;
   align-items: center;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
 }
 
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
@@ -135,6 +133,7 @@ nav.navbar a:active {
   border-width: 3px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  width: 75%;
 }
 
 .resume-my-email {
