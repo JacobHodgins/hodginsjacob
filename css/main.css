@@ -130,7 +130,6 @@ nav.navbar a:active {
   border-width: 3px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  width: 75%;
 }
 
 .resume-my-email {
@@ -144,8 +143,7 @@ nav.navbar a:active {
 .resume-content {
   padding: 20px;
   border-bottom-style: solid;
-  border-width: 2px;
-  width: 85%;
+  border-width: 1px;
 }
 
 .resume-content p {
