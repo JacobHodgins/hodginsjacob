@@ -125,9 +125,9 @@ nav.navbar a:active {
 /* --------------------------------RESUME PAGE-------------------------------- */
 
 .resume-my-name {
-  font-size: 40px;
+  font-size: 60px;
   border-bottom-style: solid;
-  border-width: 3px;
+  border-width: 6px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
@@ -148,7 +148,7 @@ nav.navbar a:active {
 .resume-title {
   font-size: 30px;
   border-bottom-style: solid;
-  border-width: 1.5px;
+  border-width: 3px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
