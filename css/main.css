@@ -138,12 +138,14 @@ nav.navbar a:active {
   padding: 10px;
   border-style: none;
   text-align: center;
+  padding: 20px;
 }
 
 .resume-index-page p {
   font-size: 20px;
   padding: 20px;
   opacity: 90%;
+  line-height: 1.5;
 }
 
 .resume-title {
