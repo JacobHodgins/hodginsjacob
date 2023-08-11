@@ -156,6 +156,9 @@ nav.navbar a:active {
   text-align: center;
 }
 
+.resume-index-page ul {
+  list-style-type: circle;
+}
 /* --------------------------------RESUME PAGE-------------------------------- */
 /* --------------------------------FOOTER-------------------------------- */
 
