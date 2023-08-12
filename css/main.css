@@ -6,6 +6,10 @@
 
 /* --------------------------------NAVIGATION BAR-------------------------------- */
 
+nav {
+  z-index: 5;
+}
+
 /* styling for the navbar */
 nav.navbar {
   overflow: visible;
@@ -16,7 +20,6 @@ nav.navbar {
   border-bottom-style: solid;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
   float: left;
-  z-index: 0;
 }
 
 /* styling for navbar elements */
@@ -63,7 +66,7 @@ nav.navbar a:hover, .dropdown:hover button.dropbtn, .dropdown-content a:hover {
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1; /* this number (2147483647) is the highest possible z index */
+  z-index: 25; /* this number (2147483647) is the highest possible z index */
 }
 
 /* styling for dropdown menu links */
@@ -92,7 +95,6 @@ nav.navbar a:active {
 .container {
   margin: 60px auto;
   width: 55%;
-  z-index: -1;
 }
 
 .grid {
