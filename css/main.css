@@ -141,12 +141,12 @@ nav.navbar a:active {
   opacity: 50%;
   border-style: none;
   text-align: center;
-  padding: 15px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
 }
 
 .resume-index-page p {
   font-size: 20px;
-  padding: 20px 0px 0px 40px;
+  padding: 20px 0px 40px 0px;
   opacity: 90%;
   line-height: 1.5;
 }
@@ -160,7 +160,7 @@ nav.navbar a:active {
 
 .resume-index-page ul {
   list-style-type: circle;
-  margin-left: 50px;
+  margin-left: 100px;
   font-size: 20px;
 }
 
