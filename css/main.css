@@ -16,6 +16,7 @@ nav.navbar {
   border-bottom-style: solid;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
   float: left;
+  z-index: 0;
 }
 
 /* styling for navbar elements */
@@ -91,6 +92,7 @@ nav.navbar a:active {
 .container {
   margin: 60px auto;
   width: 55%;
+  z-index: -1;
 }
 
 .grid {
