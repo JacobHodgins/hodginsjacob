@@ -90,7 +90,7 @@ nav.navbar a:active {
 
 .container {
   margin: 60px auto;
-  width: 65%;
+  width: 55%;
 }
 
 .grid {
@@ -137,7 +137,7 @@ nav.navbar a:active {
   opacity: 50%;
   border-style: none;
   text-align: center;
-  padding: 50px 20px 20px 20px;
+  padding: 15px;
 }
 
 .resume-index-page p {
@@ -157,6 +157,7 @@ nav.navbar a:active {
 
 .resume-index-page ul {
   list-style-type: circle;
+  margin-left: 50px;
 }
 
 /* --------------------------------RESUME PAGE-------------------------------- */
