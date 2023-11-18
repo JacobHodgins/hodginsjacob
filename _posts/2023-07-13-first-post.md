@@ -12,5 +12,5 @@ date: 2023-07-13
   <div class="post-header">What is a metronome?</div>
 </div>
 
-<img src="{{ site.baseurl }}images/Vaporwave Background.jpg" alt="Vaporwave Background" width="960" lenght="540">
+<img src="{{ site.baseurl }}images/Vaporwave Background.jpg" alt="Vaporwave Background" width="960" length="540">
 
