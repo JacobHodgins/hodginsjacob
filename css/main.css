@@ -108,7 +108,7 @@ nav.navbar a:active {
 .blurb {
   border-style: solid;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 16px 12px;
+  padding: 16px 12px 32px 12px;  /* top/bottom right/left*/
   border-radius: 12px;
 }
 
