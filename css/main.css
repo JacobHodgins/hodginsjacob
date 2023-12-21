@@ -92,7 +92,7 @@ nav.navbar a:active {
 /* --------------------------------NAVIGATION BAR-------------------------------- */
 /* --------------------------------CONTENT CONTAINER-------------------------------- */
 
-.container {
+.container, .post {
   margin: 60px auto;
   width: 55%;
 }
