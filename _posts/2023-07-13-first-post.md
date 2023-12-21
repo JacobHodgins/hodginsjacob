@@ -10,6 +10,11 @@ date: 2023-07-13
     </p>
   </div>
   <div class="post-header">What is a metronome?</div>
+  <div class="post-content">
+    <p>
+      A metronome is a rythmic ticking device used by musicians while playing or composing music to establish count and stay on beat with a song.
+    </p>
+  </div>
 </div>
 
 <!--<img src="{{ site.baseurl }}images/Vaporwave Background.jpg" alt="Vaporwave Background" width="960" length="540">-->
