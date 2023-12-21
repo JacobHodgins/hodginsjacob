@@ -172,6 +172,7 @@ nav.navbar a:active {
   padding: 25px;
   opacity: 90%;
   line-height: 1.5;
+  align-item: left;
 }
 
 .post-header {
