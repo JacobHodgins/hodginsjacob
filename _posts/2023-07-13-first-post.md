@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Digital Metronome with Arduino"
 date: 2023-07-13
 ---
