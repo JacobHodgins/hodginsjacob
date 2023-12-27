@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Digital Metronome with Arduino"
-date: 2023-12-27
+date: 2023-07-13
 ---
 <div class="post">
   <div class="post-intro">
