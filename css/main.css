@@ -190,7 +190,9 @@ nav.navbar a:active {
 }
 
 .post-image {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* --------------------------------POSTS-------------------------------- */
 /* --------------------------------FOOTER-------------------------------- */
