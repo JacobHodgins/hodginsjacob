@@ -31,7 +31,7 @@ date: 2023-07-13
      The program in Tinkercad has three main sections: definitions, program setup, and an execution loop. The most important section is the execution loop, where most of the program is interacted with by users. The following diagram demonstrates the basic function of the execution loop.
     </p>
   </div>
-  <img class="post-image" src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="788" length="553.5">
+  <img class="post-image" src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="850" length="597">
   <div class="figure-name"><b>Figure 1</b> - Diagram of basic functions of execution loop</div>
   <div class="post-content">
     <p>
