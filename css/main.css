@@ -169,7 +169,7 @@ nav.navbar a:active {
 /* --------------------------------POSTS-------------------------------- */
 .post p {
   font-size: 20px;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   opacity: 90%;
   line-height: 1.5;
   align-item: left;
@@ -187,6 +187,10 @@ nav.navbar a:active {
   text-align: center;
   font-size: 16px;
   margin-bottom: 15px;
+}
+
+.post-image {
+  text-align: center;
 }
 /* --------------------------------POSTS-------------------------------- */
 /* --------------------------------FOOTER-------------------------------- */
