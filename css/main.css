@@ -180,7 +180,7 @@ nav.navbar a:active {
   border-bottom-style: solid;
   border-width: 3px;
   text-align: center;
-  margin-top: 15px;
+  margin: 15px 0px;
 }
 
 .figure-name {
