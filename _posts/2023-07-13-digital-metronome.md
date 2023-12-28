@@ -42,6 +42,7 @@ date: 2023-12-27
   <div class="figure-name"><b>Figure 2</b> - Diagram of period and delay time</div>
   <div class="post-header">Physical Realization</div>
   <img class="post-image" src="{{ site.baseurl }}images/IMG_7962.JPG" alt="Physical Digital Metronome" width="600" length="600">
+  <div class="figure-name"><b>Figure 3</b> - Physical Implementation of Digital Metronome</div>
   <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
     <p>
