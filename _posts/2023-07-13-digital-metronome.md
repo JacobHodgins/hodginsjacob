@@ -6,7 +6,7 @@ date: 2023-12-27
 <div class="post">
   <div class="post-intro">
     <p>
-    Welcome! For my first ever project uploaded to this website, I decided to combine my knowledge of circuits and software (prior to second year of university) to       create a functional and practical design. In this case, I created a digital metronome using an Arduino UNO R3 microcontroller, various electrical components, and     a solderless breadboard.
+    Welcome! For my first ever project uploaded to this website, I decided to combine my knowledge of circuits and software (prior to second year of university) to create a functional and practical design. In this case, I created a digital metronome using an Arduino UNO R3 microcontroller, various electrical components,  and a solderless breadboard.
     </p>
   </div>
   <div class="post-header">What is a metronome?</div>
@@ -31,16 +31,17 @@ date: 2023-12-27
      The program in Tinkercad has three main sections: definitions, program setup, and an execution loop. The most important section is the execution loop, where most of the program is interacted with by users. The following diagram demonstrates the basic function of the execution loop.
     </p>
   </div>
-  <img class="post-image" src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="850" length="597">
+  <img src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="850" length="597">
   <div class="figure-name"><b>Figure 1</b> - Diagram of basic functions of execution loop</div>
   <div class="post-content">
     <p>
      Another interesting thing to note in the execution is the calculations done for what I’ve defined as the period and delay time. The metronome ticking sequence occurs for a whole bar or 4 counts since the metronome developed is in 4/4 count. In order for an individual buzzing sound from the piezo speaker to be recognizable by ear, I added a delay time to the length of the sound. It’s a helpful feature, but it has some issues. For a given tempo, there is a constant period of time between beats that I have defined as the period. When this value is large, ticks occur less often in a minute, and therefore a slower tempo is produced. If the value is small, a quicker tempo is produced. Since the delay time has to use up a certain amount of real time, this must be accounted for in the time spent during a period, which is relatively straight forward. Just subtract the delay time from the period, to get the time between sounds. The delay time is also a constant value defined at the beginning of the program and remains unchanged. That means that if the period becomes equal to or less than the delay time, the metronome will either sound strange or just sound like one long beep. This occurs when the bpm is about 400. Most songs do not reach this tempo and usually stay within the 100 to 140 bpm range. So for general use it is not a problem but it does create a limitation on the capabilities of the metronome.
     </p>
   </div>
-  <img class="post-image" src="{{ site.baseurl }}images/metronome period delay time.png" alt="Period and Delay Time Diagram" width="777" length="308">
+  <img src="{{ site.baseurl }}images/metronome period delay time.png" alt="Period and Delay Time Diagram" width="777" length="308">
   <div class="figure-name"><b>Figure 2</b> - Diagram of period and delay time</div>
   <div class="post-header">Physical Realization</div>
+  <img class="post-image" src="{{ site.baseurl }}images/IMG_7962.JPG" alt="Physical Digital Metronome" width="600" length="600">
   <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
     <p>
