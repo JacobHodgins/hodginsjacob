@@ -26,7 +26,7 @@ date: 2023-12-27
      The metronome consists of an Arduino UNO R3 microcontroller, a solderless breadboard, and various electrical components (a piezo speaker, two pushbuttons, one slide switch, a 16x2 LCD screen, a potentiometer, and male to male wires). The piezo speaker produces the ticking noise previously mentioned, although since it’s a cheap component, it produces more of an annoying buzz. The two pushbuttons are used to adjust the tempo’s bpm value up and down, one button to raise the value and one to lower. The 16x2 LCD screen is used as a console to print to, in this case it displays the status of the metronome (ON/OFF) and the tempo value in bpms. The potentiometer accompanies the LCD screen and varies the brightness of the screen by varying the resistance value.
     </p>
   </div>
-  <img src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="850" length="597">
+  <img src="{{ site.baseurl }}images/virtual metronome design tinkercad.png" alt="Virtual Design of Metronome in Tinkercad" width="800" length="361">
   <div class="figure-name"><b>Figure 1</b> - Virtual Design in Tinkercad</div>
   <div class="post-content">
     <p>
@@ -45,11 +45,11 @@ date: 2023-12-27
   <div class="post-header">Physical Realization</div>
   <img class="post-image" src="{{ site.baseurl }}images/IMG_7962.JPG" alt="Physical Digital Metronome" width="600" length="600">
   <div class="post-content">
+  <div class="figure-name"><b>Figure 4</b> - Physical Implementation of Digital Metronome</div>
+  <div class="post-header">Testing and Challenges</div>
     <p>
      Figure # shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
     </p>
-  <div class="figure-name"><b>Figure 4</b> - Physical Implementation of Digital Metronome</div>
-  <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
     <p>
      Once the metronome was created, it was necessary to test how accurate it performed. During testing, I noticed a constant delay time that built up over time between buzzes, making the metronome go out of sync the longer it plays. I believe the root of the delay issue stems from how the metronome sequence is integrated into the execution loop. The sequence is an if conditional that activates after the computer checks the status of every single button and conducts the necessary calculations required for the sequence. That translates to a constant time spent by the computer before each bar checking unnecessary changes in the status of every button. To fix this I made a minor change to how the metronome ticking sequence occurs. Instead of an if conditional that activates at the end of the entire execution loop, I made the sequence a repeating while loop that only checks for the status of the play switch at the end of each bar. With this change, the metronome became indistinguishable with other metronomes found online and I could not interpret any stacking delays.
