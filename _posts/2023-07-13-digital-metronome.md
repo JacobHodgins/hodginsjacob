@@ -25,9 +25,9 @@ date: 2023-12-27
     <p>
      The metronome consists of an Arduino UNO R3 microcontroller, a solderless breadboard, and various electrical components (a piezo speaker, two pushbuttons, one slide switch, a 16x2 LCD screen, a potentiometer, and male to male wires). The piezo speaker produces the ticking noise previously mentioned, although since it’s a cheap component, it produces more of an annoying buzz. The two pushbuttons are used to adjust the tempo’s bpm value up and down, one button to raise the value and one to lower. The 16x2 LCD screen is used as a console to print to, in this case it displays the status of the metronome (ON/OFF) and the tempo value in bpms. The potentiometer accompanies the LCD screen and varies the brightness of the screen by varying the resistance value.
     </p>
-  </div>
-  <img src="{{ site.baseurl }}images/virtual metronome design tinkercad.png" alt="Virtual Design of Metronome in Tinkercad" width="800" length="361">
+  <img class="post-image1" src="{{ site.baseurl }}images/virtual metronome design tinkercad.png" alt="Virtual Design of Metronome in Tinkercad" width="800" length="361">
   <div class="figure-name"><b>Figure 1</b> - Virtual Design in Tinkercad</div>
+  </div>
   <div class="post-content">
     <p>
      The program in Tinkercad has three main sections: definitions, program setup, and an execution loop. The most important section is the execution loop, where most of the program is interacted with by users. The following diagram demonstrates the basic function of the execution loop. The entire program is available at the end of the post.
