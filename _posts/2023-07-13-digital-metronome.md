@@ -28,7 +28,7 @@ date: 2023-12-27
   </div>
   <div class="post-content">
     <p>
-     The program in Tinkercad has three main sections: definitions, program setup, and an execution loop. The most important section is the execution loop, where most of the program is interacted with by users. The following diagram demonstrates the basic function of the execution loop.
+     The program in Tinkercad has three main sections: definitions, program setup, and an execution loop. The most important section is the execution loop, where most of the program is interacted with by users. The following diagram demonstrates the basic function of the execution loop. The entire program is available at the end of the post.
     </p>
   </div>
   <img src="{{ site.baseurl }}images/metronome post picture 2.png" alt="Execution Loop Basic Functions Diagram" width="850" length="597">
@@ -52,6 +52,138 @@ date: 2023-12-27
     <p>
      Once the metronome was created, it was necessary to test how accurate it performed. During testing, I noticed a constant delay time that built up over time between buzzes, making the metronome go out of sync the longer it plays. I believe the root of the delay issue stems from how the metronome sequence is integrated into the execution loop. The sequence is an if conditional that activates after the computer checks the status of every single button and conducts the necessary calculations required for the sequence. That translates to a constant time spent by the computer before each bar checking unnecessary changes in the status of every button. To fix this I made a minor change to how the metronome ticking sequence occurs. Instead of an if conditional that activates at the end of the entire execution loop, I made the sequence a repeating while loop that only checks for the status of the play switch at the end of each bar. With this change, the metronome became indistinguishable with other metronomes found online and I could not interpret any stacking delays.
     </p>
+  </div>
+  <div class="post-header">Final Arduino Program</div>
+  <div>
+    <pre>
+// libraries
+#include <LiquidCrystal.h>
+
+// lcd screen pins
+LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
+
+// device pins
+const int piezo = 10;
+const int onSwitch = 11;
+const int upButton = 12;
+const int downButton = 13;
+
+// variables
+int switchState;
+int upButtonState;
+int downButtonState;
+int flag = 0;
+float bpm = 90;
+float period;
+float delayTime;
+
+void setup()
+{
+  // display serial monitor
+  Serial.begin(9600);
+  
+  // buttons
+  pinMode(onSwitch, INPUT);
+  pinMode(upButton, INPUT);
+  pinMode(downButton, INPUT);
+  
+  // outputs
+  pinMode(piezo, OUTPUT);
+  
+  // lcd setuo
+  lcd.begin(16, 2);
+}
+
+void loop()
+{
+  // independent variables
+  switchState = digitalRead(onSwitch);
+  upButtonState = digitalRead(upButton);
+  downButtonState = digitalRead(downButton);
+  delayTime = 150;
+
+  // display OFF to lcd screen on start
+  if(switchState == LOW)
+  {
+    lcd.setCursor(0,0);
+    lcd.print("OFF                    ");
+  }
+
+  // start count sequence
+  if(switchState == HIGH)
+  {
+    flag = HIGH;
+  }
+  
+  // bpm changing buttons
+  if(upButtonState == HIGH)
+  {
+    bpm = bpm + 1;
+    delay(200);
+  }
+  else if(downButtonState == HIGH)
+  {
+    bpm = bpm - 1;
+    delay(200);
+  }
+  
+  // bpm restrictions
+  if(bpm < 24)
+  {
+   	bpm = 24;
+  }
+  if(bpm > 220)
+  {
+    bpm = 220;
+  }
+  
+  // calculate period between metronome beeps
+  period = 60/bpm*1000;
+  
+  // display BPM on start
+  lcd.setCursor(0,-1);
+  lcd.print("BPM = ");
+  lcd.print(bpm);
+  lcd.print("                        ");
+  
+  while(flag == HIGH)
+  {
+    //redeclare switch state within while loop
+    switchState = digitalRead(onSwitch);
+
+    // display on signal
+    lcd.setCursor(0,0);
+    lcd.print("ON                      ");
+    
+    // metronome sound
+    tone(piezo, 50);
+    delay(delayTime);
+    noTone(piezo);
+    delay(abs(period - delayTime));
+    
+	  tone(piezo, 40);
+    delay(delayTime);
+    noTone(piezo);
+    delay(abs(period - delayTime));
+    
+    tone(piezo, 40);
+    delay(delayTime);
+    noTone(piezo);
+    delay(abs(period - delayTime));
+    
+    tone(piezo, 40);
+    delay(delayTime);
+    noTone(piezo);
+    delay(abs(period - delayTime));
+    
+    // metronome sound
+    if(switchState == LOW)
+    {
+      flag = LOW;
+    }
+  } 
+}
+    </pre>
   </div>
 </div>
 
