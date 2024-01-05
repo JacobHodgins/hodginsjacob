@@ -46,10 +46,10 @@ date: 2023-12-27
   <img class="post-image" src="{{ site.baseurl }}images/IMG_7962.JPG" alt="Physical Digital Metronome" width="600" length="600">
   <div class="post-content">
   <div class="figure-name"><b>Figure 4</b> - Physical Implementation of Digital Metronome</div>
-  <div class="post-header">Testing and Challenges</div>
     <p>
-     Figure # shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
+     Figure 4 shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
     </p>
+  <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
     <p>
      Once the metronome was created, it was necessary to test how accurate it performed. During testing, I noticed a constant delay time that built up over time between buzzes, making the metronome go out of sync the longer it plays. I believe the root of the delay issue stems from how the metronome sequence is integrated into the execution loop. The sequence is an if conditional that activates after the computer checks the status of every single button and conducts the necessary calculations required for the sequence. That translates to a constant time spent by the computer before each bar checking unnecessary changes in the status of every button. To fix this I made a minor change to how the metronome ticking sequence occurs. Instead of an if conditional that activates at the end of the entire execution loop, I made the sequence a repeating while loop that only checks for the status of the play switch at the end of each bar. With this change, the metronome became indistinguishable with other metronomes found online and I could not interpret any stacking delays.
