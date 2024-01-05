@@ -42,6 +42,10 @@ date: 2023-12-27
   <div class="figure-name"><b>Figure 2</b> - Diagram of period and delay time</div>
   <div class="post-header">Physical Realization</div>
   <img class="post-image" src="{{ site.baseurl }}images/IMG_7962.JPG" alt="Physical Digital Metronome" width="600" length="600">
+  <div class="post-content">
+    <p>
+     Figure # shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
+    </p>
   <div class="figure-name"><b>Figure 3</b> - Physical Implementation of Digital Metronome</div>
   <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
