@@ -186,11 +186,12 @@ nav.navbar a:active {
 .figure-name {
   text-align: center;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .post-image {
   text-align: center;
+  margin-left: 100px;
 }
 /* --------------------------------POSTS-------------------------------- */
 /* --------------------------------FOOTER-------------------------------- */
