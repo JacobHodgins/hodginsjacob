@@ -47,7 +47,7 @@ date: 2023-12-27
   <div class="post-content">
   <div class="figure-name"><b>Figure 4</b> - Physical Implementation of Digital Metronome</div>
     <p>
-     Figure 4 shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
+     Figure 4 shows the physical metronome made using an arduino and solderless breadboard. This device is a one-to-one copy of the virtual design made in Tinkercad except two male-to-male wires connecting the 5V and ground pin from arduino to breadboard is not attached. Typically with breadboard implementations, soldering is used to make more seccure connections for the wires and electrical components. However, I decided not to pursue soldering as it would leave permanenent residue on the through-hole pins, removing the reusability of the components for experimenting with other circuit types.
     </p>
   <div class="post-header">Testing and Challenges</div>
   <div class="post-content">
