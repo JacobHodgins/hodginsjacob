@@ -8,7 +8,7 @@ date: 2023-12-27
     <p>
     Welcome! For my first ever project uploaded to this website, I decided to combine my knowledge of circuits and software (prior to second year of university) to create a functional and practical design. In this case, I created a digital metronome using an Arduino UNO R3 microcontroller, various electrical components,  and a solderless breadboard. The following video will provide a quick and simple summarization of the digital metronome itself.
     </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/A9OJl2y7Uok?si=sk8lzeFP6IKs5otJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="post-image" width="560" height="315" src="https://www.youtube.com/embed/A9OJl2y7Uok?si=sk8lzeFP6IKs5otJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   <div class="post-header">What is a metronome?</div>
   <div class="post-content">
